@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="134" height="38" viewBox="0 0 134 38" font-family="'JetBrains Mono','SFMono-Regular',SFMono,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="aura-lang">
-  <title>aura-lang</title>
-  <rect x="0.5" y="0.5" width="133" height="37" rx="18.5" fill="#0C0C15" stroke="#262636"/>
-  <g><path d="M31 19 L27.5 25.06 L20.5 25.06 L17 19 L20.5 12.94 L27.5 12.94 Z" fill="none" stroke="#A2A2B2" stroke-width="1.4" stroke-linejoin="round"/><circle cx="24" cy="19" r="1.8" fill="#A2A2B2"/></g>
-  <text x="44" y="23.5" font-size="11.5" letter-spacing="1" fill="#D6D6E2">aura-lang</text>
-</svg>
