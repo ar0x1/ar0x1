@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="250" viewBox="0 0 720 250" font-family="'JetBrains Mono','SFMono-Regular',SFMono,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Terminal session — $ whoami returns ar0x. $ focus returns ai systems, experimental software, creative tools. $ status returns building.">
+<defs>
+    <linearGradient id="tmglass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="tmtop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="tmshine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="tmclip"><rect width="720" height="250" rx="16"/></clipPath>
+    <radialGradient id="tmb0"><stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.09"/><stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="tmb1"><stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.09"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+  </defs>
+    <rect width="720" height="250" rx="16" fill="#0B0B13"/>
+  <g clip-path="url(#tmclip)">
+    <ellipse cx="90" cy="220" r="110" fill="url(#tmb0)"><animateTransform attributeName="transform" type="translate" values="0 0;7 -5;0 0" dur="24.9s" begin="-3.8s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="640" cy="30" r="100" fill="url(#tmb1)"><animateTransform attributeName="transform" type="translate" values="0 0;-8 -17;0 0" dur="23.2s" begin="-10.3s" repeatCount="indefinite"/></ellipse>
+    <rect width="720" height="250" rx="16" fill="url(#tmglass)"/>
+    <rect y="1" width="720" height="1" fill="url(#tmtop)" opacity=".55"/>
+    <g transform="skewX(-18)"><rect x="-216" y="-10" width="144" height="270" fill="url(#tmshine)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0;1224 0;1224 0" keyTimes="0;.3;1"
+        dur="9s" begin="-4s" repeatCount="indefinite"/></rect></g>
+  </g>
+  <rect x="0.5" y="0.5" width="719" height="249" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <g clip-path="url(#tmclip)">
+    <rect width="720" height="40" fill="#FFFFFF" fill-opacity=".02"/>
+    <circle cx="322" cy="84" r="1.4" fill="#9BA0C0"><animateTransform attributeName="transform" type="translate" values="0 0;-6 -16;0 0" dur="10.5s" begin="-0.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.36;0" keyTimes="0;.5;1" dur="10.5s" begin="-0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="65" cy="159" r="1.4" fill="#4F8CFF"><animateTransform attributeName="transform" type="translate" values="0 0;-4 -17;0 0" dur="11.1s" begin="-10.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.40;0" keyTimes="0;.5;1" dur="11.1s" begin="-10.5s" repeatCount="indefinite"/></circle>
+    <circle cx="203" cy="169" r="1.5" fill="#8B5CF6"><animateTransform attributeName="transform" type="translate" values="0 0;5 -21;0 0" dur="10.3s" begin="-2.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.48;0" keyTimes="0;.5;1" dur="10.3s" begin="-2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="310" cy="161" r="1.1" fill="#EC4899"><animateTransform attributeName="transform" type="translate" values="0 0;6 -12;0 0" dur="6.2s" begin="-4.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.40;0" keyTimes="0;.5;1" dur="6.2s" begin="-4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="683" cy="44" r="1.2" fill="#C9C9D2"><animateTransform attributeName="transform" type="translate" values="0 0;2 -21;0 0" dur="11.6s" begin="-4.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.43;0" keyTimes="0;.5;1" dur="11.6s" begin="-4.7s" repeatCount="indefinite"/></circle>
+    <circle cx="270" cy="101" r="1.0" fill="#9BA0C0"><animateTransform attributeName="transform" type="translate" values="0 0;7 -11;0 0" dur="10.4s" begin="-8.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.46;0" keyTimes="0;.5;1" dur="10.4s" begin="-8.1s" repeatCount="indefinite"/></circle>
+    <circle cx="153" cy="68" r="1.5" fill="#4F8CFF"><animateTransform attributeName="transform" type="translate" values="0 0;-1 -20;0 0" dur="10.5s" begin="-11.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.31;0" keyTimes="0;.5;1" dur="10.5s" begin="-11.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <circle cx="28" cy="20" r="4.2" fill="#B76B6B" fill-opacity=".75"/>
+  <circle cx="46" cy="20" r="4.2" fill="#C7A45E" fill-opacity=".75"/>
+  <circle cx="64" cy="20" r="4.2" fill="#6FAE8C" fill-opacity=".75"/>
+  <text x="360" y="24" text-anchor="middle" font-size="10.5" letter-spacing="1" fill="#6E6E7C">ar0x@github: ~</text>
+  <line x1="0" y1="40" x2="720" y2="40" stroke="#FFFFFF" stroke-opacity=".07"/>
+  <g font-size="12.5">
+    <text x="28" y="78" fill="#4F8CFF">$</text>
+    <text x="44" y="78" fill="#E2E2EC">whoami</text>
+    <text x="28" y="102" fill="#F5F5F7" font-weight="700">ar0x</text>
+    <text x="28" y="134" fill="#4F8CFF">$</text>
+    <text x="44" y="134" fill="#E2E2EC">focus</text>
+    <text x="28" y="158" fill="#9C9CA8">ai systems · experimental software · creative tools</text>
+    <text x="28" y="190" fill="#4F8CFF">$</text>
+    <text x="44" y="190" fill="#E2E2EC">status</text>
+    <text x="28" y="214" fill="#F5F5F7" font-weight="700">building</text>
+  </g>
+  <rect x="96" y="203" width="7" height="14" fill="#8B5CF6">
+    <animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

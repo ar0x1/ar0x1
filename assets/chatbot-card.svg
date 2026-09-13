@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="150" viewBox="0 0 720 150" font-family="'JetBrains Mono','SFMono-Regular',SFMono,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="CHAT-BOT — conversational AI interface with custom character personas. Status: active. Opens the CHAT-BOT repository.">
+<defs>
+    <linearGradient id="cbglass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="cbtop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="cbshine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="cbclip"><rect width="720" height="150" rx="16"/></clipPath>
+    <radialGradient id="cbb0"><stop offset="0%" stop-color="#EC4899" stop-opacity="0.14"/><stop offset="100%" stop-color="#EC4899" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cbb1"><stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.08"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cbbar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EC4899"/><stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+    <rect width="720" height="150" rx="16" fill="#0B0B13"/>
+  <g clip-path="url(#cbclip)">
+    <ellipse cx="54" cy="59" r="70" fill="url(#cbb0)"><animateTransform attributeName="transform" type="translate" values="0 0;-10 -13;0 0" dur="29.2s" begin="-19.7s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="640" cy="112" r="95" fill="url(#cbb1)"><animateTransform attributeName="transform" type="translate" values="0 0;-4 15;0 0" dur="23.1s" begin="-12.8s" repeatCount="indefinite"/></ellipse>
+    <rect width="720" height="150" rx="16" fill="url(#cbglass)"/>
+    <rect y="1" width="720" height="1" fill="url(#cbtop)" opacity=".55"/>
+    <g transform="skewX(-18)"><rect x="-216" y="-10" width="144" height="170" fill="url(#cbshine)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0;1224 0;1224 0" keyTimes="0;.3;1"
+        dur="8s" begin="-3s" repeatCount="indefinite"/></rect></g>
+  </g>
+  <rect x="0.5" y="0.5" width="719" height="149" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <g clip-path="url(#cbclip)">
+    <rect width="4" height="150" fill="url(#cbbar)"/>
+    <path d="M30 118 H120 L146 92 H210" fill="none" stroke="#EC4899" stroke-opacity=".14" stroke-dasharray="3 7">
+      <animate attributeName="stroke-dashoffset" values="0;-20" dur="7s" repeatCount="indefinite"/></path>
+    <circle cx="654" cy="132" r="1.4" fill="#9BA0C0"><animateTransform attributeName="transform" type="translate" values="0 0;1 -11;0 0" dur="8.5s" begin="-6.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.34;0" keyTimes="0;.5;1" dur="8.5s" begin="-6.4s" repeatCount="indefinite"/></circle>
+    <circle cx="147" cy="71" r="0.9" fill="#4F8CFF"><animateTransform attributeName="transform" type="translate" values="0 0;-7 -15;0 0" dur="6.5s" begin="-8.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.43;0" keyTimes="0;.5;1" dur="6.5s" begin="-8.5s" repeatCount="indefinite"/></circle>
+    <circle cx="369" cy="106" r="1.0" fill="#8B5CF6"><animateTransform attributeName="transform" type="translate" values="0 0;4 -11;0 0" dur="9.5s" begin="-7.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.49;0" keyTimes="0;.5;1" dur="9.5s" begin="-7.9s" repeatCount="indefinite"/></circle>
+    <circle cx="686" cy="62" r="1.3" fill="#EC4899"><animateTransform attributeName="transform" type="translate" values="0 0;1 -14;0 0" dur="10.0s" begin="-3.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.33;0" keyTimes="0;.5;1" dur="10.0s" begin="-3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="342" cy="104" r="1.2" fill="#C9C9D2"><animateTransform attributeName="transform" type="translate" values="0 0;2 -15;0 0" dur="7.1s" begin="-2.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.40;0" keyTimes="0;.5;1" dur="7.1s" begin="-2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="579" cy="41" r="0.8" fill="#9BA0C0"><animateTransform attributeName="transform" type="translate" values="0 0;-6 -11;0 0" dur="7.7s" begin="-6.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.55;0" keyTimes="0;.5;1" dur="7.7s" begin="-6.9s" repeatCount="indefinite"/></circle>
+    <circle cx="243" cy="62" r="0.9" fill="#4F8CFF"><animateTransform attributeName="transform" type="translate" values="0 0;4 -14;0 0" dur="9.3s" begin="-3.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.33;0" keyTimes="0;.5;1" dur="9.3s" begin="-3.1s" repeatCount="indefinite"/></circle>
+  </g>
+  <circle cx="54" cy="59" r="30" fill="none" stroke="#EC4899" stroke-opacity=".3" stroke-dasharray="1.5 9">
+    <animateTransform attributeName="transform" type="rotate" from="0 54 59" to="360 54 59" dur="26s" repeatCount="indefinite"/></circle>
+  <rect x="30" y="35" width="48" height="48" rx="12" fill="#FFFFFF" fill-opacity=".045" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <rect x="32" y="36.5" width="44" height="1" fill="#FFFFFF" opacity=".18"/>
+  <rect x="42" y="48" width="24" height="16" rx="5" fill="none" stroke="#EC4899" stroke-width="1.5"/><path d="M49 64 v5 l5 -5" fill="none" stroke="#EC4899" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="49" cy="56" r="1.4" fill="#EC4899"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="54" cy="56" r="1.4" fill="#EC4899"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" begin="-.6s" repeatCount="indefinite"/></circle><circle cx="59" cy="56" r="1.4" fill="#EC4899"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" begin="-1.2s" repeatCount="indefinite"/></circle>
+  <text x="98" y="49" font-size="9.5" letter-spacing="2.5" fill="#EC4899">CONVERSATIONAL AI</text>
+  <text x="98" y="76" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="22" font-weight="650" fill="#F5F5F7">CHAT-BOT</text>
+  <text x="98" y="100" font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14" fill="#A8A8B6">Conversational AI interface with custom character personas.</text>
+  <text x="98" y="124" font-size="11" letter-spacing=".5" fill="#7E7E8A">TypeScript · custom avatars · personas</text>
+  <circle cx="626" cy="44" r="3" fill="none" stroke="#EC4899"><animate attributeName="r" values="3;10" dur="3.0s" begin="-0.4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".5;0" dur="3.0s" begin="-0.4s" repeatCount="indefinite"/></circle><circle cx="626" cy="44" r="3" fill="#EC4899"><animate attributeName="opacity" values="1;.45;1" dur="3.0s" begin="-0.4s" repeatCount="indefinite"/></circle>
+  <text x="690" y="48" text-anchor="end" font-size="10" letter-spacing="2" fill="#EC4899">ACTIVE</text>
+  <rect x="594" y="84" width="96" height="32" rx="9" fill="#FFFFFF" fill-opacity=".05" stroke="#FFFFFF" stroke-opacity=".12"/><text x="634" y="104" text-anchor="middle" font-size="10" letter-spacing="1.5" fill="#D6D6E2">GITHUB</text><path d="M672 106 L680 98 M674 98 h6 v6" fill="none" stroke="#8B8B98" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="690" y="136" text-anchor="end" font-size="9" letter-spacing="1" fill="#3E3E4A">03</text>
+</svg>

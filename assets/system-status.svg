@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="232" viewBox="0 0 720 232" font-family="'JetBrains Mono','SFMono-Regular',SFMono,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="System status panel — AURA: active. AURA-lang: building. CHAT-BOT: active. Experiments: always. Status: building.">
+<defs>
+    <linearGradient id="syglass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="sytop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="syshine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="syclip"><rect width="720" height="232" rx="16"/></clipPath>
+    <radialGradient id="syb0"><stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.09"/><stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/></radialGradient>
+    <radialGradient id="syb1"><stop offset="0%" stop-color="#EC4899" stop-opacity="0.07"/><stop offset="100%" stop-color="#EC4899" stop-opacity="0"/></radialGradient>
+    <linearGradient id="syband" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".035"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="syacc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4F8CFF"/><stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+    <rect width="720" height="232" rx="16" fill="#0B0B13"/>
+  <g clip-path="url(#syclip)">
+    <ellipse cx="120" cy="40" r="100" fill="url(#syb0)"><animateTransform attributeName="transform" type="translate" values="0 0;-14 -8;0 0" dur="23.8s" begin="-2.0s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="620" cy="200" r="110" fill="url(#syb1)"><animateTransform attributeName="transform" type="translate" values="0 0;16 0;0 0" dur="23.9s" begin="-8.9s" repeatCount="indefinite"/></ellipse>
+    <rect width="720" height="232" rx="16" fill="url(#syglass)"/>
+    <rect y="1" width="720" height="1" fill="url(#sytop)" opacity=".55"/>
+    <g transform="skewX(-18)"><rect x="-216" y="-10" width="144" height="252" fill="url(#syshine)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0;1224 0;1224 0" keyTimes="0;.3;1"
+        dur="10s" begin="-6s" repeatCount="indefinite"/></rect></g>
+  </g>
+  <rect x="0.5" y="0.5" width="719" height="231" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <g clip-path="url(#syclip)">
+    <rect x="0" y="40" width="720" height="34" fill="url(#syband)"><animate attributeName="y" values="40;196" dur="11s" repeatCount="indefinite"/></rect>
+    <circle r="2" fill="#4F8CFF">
+      <animateMotion path="M130 70 L600 70" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.6;.6;0" keyTimes="0;.1;.85;1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2" fill="#EC4899">
+      <animateMotion path="M130 138 L600 138" dur="7s" begin="-3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.6;.6;0" keyTimes="0;.1;.85;1" dur="7s" begin="-3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2" fill="#8B5CF6">
+      <animateMotion path="M130 172 L600 172" dur="8.5s" begin="-6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;.5;.5;0" keyTimes="0;.1;.85;1" dur="8.5s" begin="-6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="41" cy="161" r="0.8" fill="#9BA0C0"><animateTransform attributeName="transform" type="translate" values="0 0;2 -16;0 0" dur="10.8s" begin="-5.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.45;0" keyTimes="0;.5;1" dur="10.8s" begin="-5.4s" repeatCount="indefinite"/></circle>
+    <circle cx="27" cy="107" r="1.0" fill="#4F8CFF"><animateTransform attributeName="transform" type="translate" values="0 0;1 -20;0 0" dur="10.5s" begin="-5.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.35;0" keyTimes="0;.5;1" dur="10.5s" begin="-5.2s" repeatCount="indefinite"/></circle>
+    <circle cx="603" cy="187" r="1.0" fill="#8B5CF6"><animateTransform attributeName="transform" type="translate" values="0 0;0 -11;0 0" dur="9.0s" begin="-9.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.48;0" keyTimes="0;.5;1" dur="9.0s" begin="-9.3s" repeatCount="indefinite"/></circle>
+    <circle cx="365" cy="136" r="1.0" fill="#EC4899"><animateTransform attributeName="transform" type="translate" values="0 0;-6 -11;0 0" dur="11.7s" begin="-10.1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.39;0" keyTimes="0;.5;1" dur="11.7s" begin="-10.1s" repeatCount="indefinite"/></circle>
+    <circle cx="629" cy="126" r="0.8" fill="#C9C9D2"><animateTransform attributeName="transform" type="translate" values="0 0;1 -20;0 0" dur="11.6s" begin="-8.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.33;0" keyTimes="0;.5;1" dur="11.6s" begin="-8.2s" repeatCount="indefinite"/></circle>
+    <circle cx="445" cy="180" r="1.4" fill="#9BA0C0"><animateTransform attributeName="transform" type="translate" values="0 0;0 -14;0 0" dur="10.2s" begin="-2.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.55;0" keyTimes="0;.5;1" dur="10.2s" begin="-2.0s" repeatCount="indefinite"/></circle>
+    <circle cx="554" cy="28" r="1.2" fill="#4F8CFF"><animateTransform attributeName="transform" type="translate" values="0 0;-4 -14;0 0" dur="9.6s" begin="-11.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.47;0" keyTimes="0;.5;1" dur="9.6s" begin="-11.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="28" y="25" font-size="10" letter-spacing="4" fill="#8B8B98">SYSTEM // STATUS</text>
+  <circle cx="699" cy="21" r="2.6" fill="none" stroke="#4F8CFF"><animate attributeName="r" values="2.6;9.6" dur="2.2s" begin="0s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".5;0" dur="2.2s" begin="0s" repeatCount="indefinite"/></circle><circle cx="699" cy="21" r="2.6" fill="#4F8CFF"><animate attributeName="opacity" values="1;.45;1" dur="2.2s" begin="0s" repeatCount="indefinite"/></circle>
+  <text x="692" y="25" text-anchor="end" font-size="9.5" letter-spacing="3" fill="#8B8B98" dx="-12">LIVE</text>
+  <line x1="0" y1="40" x2="720" y2="40" stroke="#FFFFFF" stroke-opacity=".06"/>
+  <text x="28" y="74" font-size="13" fill="#E2E2EC">AURA</text>
+<line x1="130" y1="70" x2="600" y2="70" stroke="#FFFFFF" stroke-opacity=".07" stroke-dasharray="2 6"/>
+<text x="28" y="108" font-size="13" fill="#E2E2EC">AURA-lang</text>
+<line x1="130" y1="104" x2="600" y2="104" stroke="#FFFFFF" stroke-opacity=".07" stroke-dasharray="2 6"/>
+<text x="28" y="142" font-size="13" fill="#E2E2EC">CHAT-BOT</text>
+<line x1="130" y1="138" x2="600" y2="138" stroke="#FFFFFF" stroke-opacity=".07" stroke-dasharray="2 6"/>
+<text x="28" y="176" font-size="13" fill="#E2E2EC">EXPERIMENTS</text>
+<line x1="130" y1="172" x2="600" y2="172" stroke="#FFFFFF" stroke-opacity=".07" stroke-dasharray="2 6"/>
+  <circle cx="626" cy="66" r="3" fill="none" stroke="#4F8CFF"><animate attributeName="r" values="3;10" dur="2.0s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".5;0" dur="2.0s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="626" cy="66" r="3" fill="#4F8CFF"><animate attributeName="opacity" values="1;.45;1" dur="2.0s" begin="0.0s" repeatCount="indefinite"/></circle>
+<text x="692" y="70" text-anchor="end" font-size="10.5" letter-spacing="1.5" fill="#4F8CFF">ACTIVE</text>
+<circle cx="611" cy="100" r="3" fill="none" stroke="#8B5CF6"><animate attributeName="r" values="3;10" dur="2.3s" begin="-0.5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".5;0" dur="2.3s" begin="-0.5s" repeatCount="indefinite"/></circle><circle cx="611" cy="100" r="3" fill="#8B5CF6"><animate attributeName="opacity" values="1;.45;1" dur="2.3s" begin="-0.5s" repeatCount="indefinite"/></circle>
+<text x="692" y="104" text-anchor="end" font-size="10.5" letter-spacing="1.5" fill="#8B5CF6">BUILDING</text>
+<circle cx="626" cy="134" r="3" fill="none" stroke="#EC4899"><animate attributeName="r" values="3;10" dur="2.6s" begin="-1.0s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".5;0" dur="2.6s" begin="-1.0s" repeatCount="indefinite"/></circle><circle cx="626" cy="134" r="3" fill="#EC4899"><animate attributeName="opacity" values="1;.45;1" dur="2.6s" begin="-1.0s" repeatCount="indefinite"/></circle>
+<text x="692" y="138" text-anchor="end" font-size="10.5" letter-spacing="1.5" fill="#EC4899">ACTIVE</text>
+<circle cx="626" cy="168" r="3" fill="none" stroke="#C9C9D2"><animate attributeName="r" values="3;10" dur="2.9s" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".5;0" dur="2.9s" begin="-1.5s" repeatCount="indefinite"/></circle><circle cx="626" cy="168" r="3" fill="#C9C9D2"><animate attributeName="opacity" values="1;.45;1" dur="2.9s" begin="-1.5s" repeatCount="indefinite"/></circle>
+<text x="692" y="172" text-anchor="end" font-size="10.5" letter-spacing="1.5" fill="#C9C9D2">ALWAYS</text>
+  <g stroke="#FFFFFF" stroke-opacity=".05">
+    <line x1="28" y1="87" x2="692" y2="87"/><line x1="28" y1="121" x2="692" y2="121"/><line x1="28" y1="155" x2="692" y2="155"/>
+  </g>
+  <line x1="0" y1="196" x2="720" y2="196" stroke="#FFFFFF" stroke-opacity=".06"/>
+  <text x="28" y="220" font-size="10.5" letter-spacing="2" fill="#6E6E7C">STATUS:</text>
+  <text x="100" y="220" font-size="10.5" letter-spacing="2" fill="#E2E2EC">BUILDING</text>
+  <rect x="170" y="210" width="7" height="13" fill="#8B5CF6">
+    <animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="692" y="220" text-anchor="end" font-size="9.5" letter-spacing="3" fill="#454553">AR0X.SYS</text>
+</svg>

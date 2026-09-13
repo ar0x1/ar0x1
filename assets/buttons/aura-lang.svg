@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134" height="38" viewBox="0 0 134 38" font-family="'JetBrains Mono','SFMono-Regular',SFMono,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="aura-lang">
+<defs>
+    <linearGradient id="btauralangglass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="btauralangtop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="btauralangshine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="btauralangclip"><rect width="134" height="38" rx="18.5"/></clipPath>
+  </defs>
+    <rect width="134" height="38" rx="18.5" fill="#0B0B13"/>
+  <g clip-path="url(#btauralangclip)">
+    
+    <rect width="134" height="38" rx="18.5" fill="url(#btauralangglass)"/>
+    <rect y="1" width="134" height="1" fill="url(#btauralangtop)" opacity=".55"/>
+    <g transform="skewX(-18)"><rect x="-40" y="-10" width="26" height="58" fill="url(#btauralangshine)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0;227 0;227 0" keyTimes="0;.3;1"
+        dur="6.5s" begin="-5s" repeatCount="indefinite"/></rect></g>
+  </g>
+  <rect x="0.5" y="0.5" width="133" height="37" rx="18.5" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <g><path d="M31 19 L27.5 25.06 L20.5 25.06 L17 19 L20.5 12.94 L27.5 12.94 Z" fill="none" stroke="#A8A8B6" stroke-width="1.4" stroke-linejoin="round"/><circle cx="24" cy="19" r="1.8" fill="#A8A8B6"/></g>
+  <text x="44" y="23.5" font-size="11.5" letter-spacing="1" fill="#DADAE4">aura-lang</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="740" height="52" viewBox="0 0 740 52" font-family="'JetBrains Mono','SFMono-Regular',SFMono,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="// system status">
+<defs>
+    <linearGradient id="hdstatusglass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="hdstatustop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hdstatusshine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="hdstatusclip"><rect width="740" height="52" rx="12"/></clipPath>
+    <radialGradient id="hdstatusb0"><stop offset="0%" stop-color="#4F8CFF" stop-opacity=".12"/><stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="hdstatusacc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4F8CFF"/><stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+    <rect width="740" height="52" rx="12" fill="#0B0B13"/>
+  <g clip-path="url(#hdstatusclip)">
+    <ellipse cx="130" cy="4" r="80" fill="url(#hdstatusb0)"><animateTransform attributeName="transform" type="translate" values="0 0;30 4;0 0" dur="22s" repeatCount="indefinite"/></ellipse>
+    <rect width="740" height="52" rx="12" fill="url(#hdstatusglass)"/>
+    <rect y="1" width="740" height="1" fill="url(#hdstatustop)" opacity=".55"/>
+    <g transform="skewX(-18)"><rect x="-222" y="-10" width="148" height="72" fill="url(#hdstatusshine)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0;1258 0;1258 0" keyTimes="0;.3;1"
+        dur="12s" begin="-4s" repeatCount="indefinite"/></rect></g>
+  </g>
+  <rect x="0.5" y="0.5" width="739" height="51" rx="12" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <text x="14" y="31" font-size="15" font-weight="700" fill="url(#hdstatusacc)">//</text>
+  <text x="38" y="31" font-size="14" letter-spacing="5" fill="#ECECF2">system status</text>
+  <rect x="230" y="24.2" width="3.6" height="3.6" fill="url(#hdstatusacc)">
+    <animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></rect>
+  <line x1="236" y1="26" x2="726" y2="26" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <rect x="14" y="43.5" width="110" height="1.5" fill="url(#hdstatusacc)" opacity=".7"/>
+  <circle r="1.6" fill="#FFFFFF">
+    <animateMotion path="M14 43.5 L124 43.5" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" keyTimes="0;.5;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

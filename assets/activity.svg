@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="196" viewBox="0 0 720 196" font-family="'JetBrains Mono','SFMono-Regular',SFMono,Menlo,Consolas,'Liberation Mono',monospace" role="img" aria-label="Activity stream — building AURA, experimenting with AI interfaces, improving AURA-lang, shipping small experiments, learning something new.">
+<defs>
+    <linearGradient id="acglass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".015"/>
+    </linearGradient>
+    <linearGradient id="actop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".3"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="acshine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".07"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="acclip"><rect width="720" height="196" rx="16"/></clipPath>
+    <radialGradient id="acb0"><stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.1"/><stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="acb1"><stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.07"/><stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/></radialGradient>
+  </defs>
+    <rect width="720" height="196" rx="16" fill="#0B0B13"/>
+  <g clip-path="url(#acclip)">
+    <ellipse cx="600" cy="20" r="110" fill="url(#acb0)"><animateTransform attributeName="transform" type="translate" values="0 0;4 17;0 0" dur="22.4s" begin="-16.8s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="100" cy="170" r="90" fill="url(#acb1)"><animateTransform attributeName="transform" type="translate" values="0 0;-14 17;0 0" dur="28.2s" begin="-14.9s" repeatCount="indefinite"/></ellipse>
+    <rect width="720" height="196" rx="16" fill="url(#acglass)"/>
+    <rect y="1" width="720" height="1" fill="url(#actop)" opacity=".55"/>
+    <g transform="skewX(-18)"><rect x="-216" y="-10" width="144" height="216" fill="url(#acshine)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0;1224 0;1224 0" keyTimes="0;.3;1"
+        dur="9s" begin="-2s" repeatCount="indefinite"/></rect></g>
+  </g>
+  <rect x="0.5" y="0.5" width="719" height="195" rx="16" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <g clip-path="url(#acclip)">
+    <circle cx="441" cy="169" r="1.1" fill="#9BA0C0"><animateTransform attributeName="transform" type="translate" values="0 0;6 -19;0 0" dur="9.1s" begin="-8.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.52;0" keyTimes="0;.5;1" dur="9.1s" begin="-8.8s" repeatCount="indefinite"/></circle>
+    <circle cx="608" cy="24" r="0.8" fill="#4F8CFF"><animateTransform attributeName="transform" type="translate" values="0 0;3 -22;0 0" dur="7.6s" begin="-8.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.35;0" keyTimes="0;.5;1" dur="7.6s" begin="-8.9s" repeatCount="indefinite"/></circle>
+    <circle cx="263" cy="93" r="0.9" fill="#8B5CF6"><animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="9.9s" begin="-3.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.50;0" keyTimes="0;.5;1" dur="9.9s" begin="-3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="694" cy="27" r="0.9" fill="#EC4899"><animateTransform attributeName="transform" type="translate" values="0 0;2 -11;0 0" dur="8.5s" begin="-5.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.37;0" keyTimes="0;.5;1" dur="8.5s" begin="-5.3s" repeatCount="indefinite"/></circle>
+    <circle cx="552" cy="147" r="1.1" fill="#C9C9D2"><animateTransform attributeName="transform" type="translate" values="0 0;-4 -20;0 0" dur="8.1s" begin="-11.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.37;0" keyTimes="0;.5;1" dur="8.1s" begin="-11.5s" repeatCount="indefinite"/></circle>
+    <circle cx="114" cy="23" r="1.2" fill="#9BA0C0"><animateTransform attributeName="transform" type="translate" values="0 0;-6 -20;0 0" dur="8.9s" begin="-4.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.40;0" keyTimes="0;.5;1" dur="8.9s" begin="-4.8s" repeatCount="indefinite"/></circle>
+    <rect x="640" width="4" rx="2" fill="#4F8CFF" opacity=".38"><animate attributeName="height" values="5;18;5;7;5" dur="1.9s" begin="0.0s" repeatCount="indefinite"/><animate attributeName="y" values="165;152;165;163;165" dur="1.9s" begin="0.0s" repeatCount="indefinite"/></rect>
+<rect x="650" width="4" rx="2" fill="#8B5CF6" opacity=".38"><animate attributeName="height" values="4;12;4;15;4" dur="2.25s" begin="-0.5s" repeatCount="indefinite"/><animate attributeName="y" values="166;158;166;155;166" dur="2.25s" begin="-0.5s" repeatCount="indefinite"/></rect>
+<rect x="660" width="4" rx="2" fill="#EC4899" opacity=".38"><animate attributeName="height" values="3;15;3;9;3" dur="2.5999999999999996s" begin="-1.0s" repeatCount="indefinite"/><animate attributeName="y" values="167;155;167;161;167" dur="2.5999999999999996s" begin="-1.0s" repeatCount="indefinite"/></rect>
+<rect x="670" width="4" rx="2" fill="#4F8CFF" opacity=".38"><animate attributeName="height" values="2;10;2;13;2" dur="2.9499999999999997s" begin="-1.5s" repeatCount="indefinite"/><animate attributeName="y" values="168;160;168;157;168" dur="2.9499999999999997s" begin="-1.5s" repeatCount="indefinite"/></rect>
+<rect x="680" width="4" rx="2" fill="#8B5CF6" opacity=".38"><animate attributeName="height" values="2.5;16;2.5;6;2.5" dur="3.3s" begin="-2.0s" repeatCount="indefinite"/><animate attributeName="y" values="167.5;154;167.5;164;167.5" dur="3.3s" begin="-2.0s" repeatCount="indefinite"/></rect>
+  </g>
+  <text x="28" y="25" font-size="10" letter-spacing="4" fill="#8B8B98">// ACTIVITY</text>
+  <text x="692" y="25" text-anchor="end" font-size="9.5" letter-spacing="3" fill="#565664">STREAM</text>
+  <line x1="0" y1="40" x2="720" y2="40" stroke="#FFFFFF" stroke-opacity=".06"/>
+  <text x="28" y="68" fill="#4F8CFF">&#9656;</text>
+<text x="44" y="68" fill="#C9C9D2">building AURA</text>
+<text x="28" y="94" fill="#8B5CF6">&#9656;</text>
+<text x="44" y="94" fill="#93939F">experimenting with AI interfaces</text>
+<text x="28" y="120" fill="#EC4899">&#9656;</text>
+<text x="44" y="120" fill="#C9C9D2">improving AURA-lang</text>
+<text x="28" y="146" fill="#4F8CFF">&#9656;</text>
+<text x="44" y="146" fill="#93939F">shipping small experiments</text>
+<text x="28" y="172" fill="#8B5CF6">&#9656;</text>
+<text x="44" y="172" fill="#C9C9D2">learning something new</text>
+  <rect x="224" y="160" width="7" height="14" fill="#EC4899">
+    <animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
