@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152 44" width="152" height="44" role="img" aria-label="AURA — visit the AURA repository.">
+  <defs>
+    <linearGradient id="gBg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E1020"/>
+      <stop offset="100%" stop-color="#070811"/>
+    </linearGradient>
+    <linearGradient id="gBd3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.18"/>
+    </linearGradient>
+    <radialGradient id="gOrbHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#93C5FD" stop-opacity="0.7"/>
+      <stop offset="55%" stop-color="#4F8CFF" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gOrbCore" cx="50%" cy="46%" r="50%">
+      <stop offset="0%" stop-color="#F0F4FF"/>
+      <stop offset="55%" stop-color="#4F8CFF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .u { font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,monospace; }
+      .l { fill:#E8E8F0; font-size:11.5px; letter-spacing:2.6px; }
+      @media (prefers-reduced-motion:reduce){ animate { display:none } }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="151" height="43" rx="21.5" fill="url(#gBg3)" stroke="url(#gBd3)" stroke-width="1"/>
+  <path d="M 14 22 H 138" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="0.6"/>
+  <path d="M 14.5 1.5 H 137.5" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="0.6"/>
+  <!-- mini aura orb -->
+  <g transform="translate(30 22)">
+    <circle r="11" fill="url(#gOrbHalo)">
+      <animate attributeName="opacity" values="0.6;0.95;0.6" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse rx="11" ry="3.4" fill="none" stroke="#4F8CFF" stroke-opacity="0.4" stroke-width="0.7">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle r="4" fill="url(#gOrbCore)"/>
+    <circle r="1.4" fill="#FFFFFF"/>
+  </g>
+  <text x="48" y="27" class="u l">AURA</text>
+</svg>

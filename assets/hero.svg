@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="1200" height="540" shape-rendering="geometricPrecision" role="img" aria-label="ar0x — AI builder. A central glowing core wrapped in tilted orbital rings, drifting particles, a faint perspective grid, and ambient blue/violet/pink lighting.">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06070F"/>
+      <stop offset="48%" stop-color="#0A0C1A"/>
+      <stop offset="100%" stop-color="#05060D"/>
+    </linearGradient>
+    <radialGradient id="ambBlue" cx="50%" cy="14%" r="55%">
+      <stop offset="0%" stop-color="#1E3A8A" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#1E3A8A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ambViolet" cx="15%" cy="92%" r="40%">
+      <stop offset="0%" stop-color="#6D28D9" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#6D28D9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ambPink" cx="85%" cy="95%" r="38%">
+      <stop offset="0%" stop-color="#BE185D" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#BE185D" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#93C5FD" stop-opacity="0.85"/>
+      <stop offset="32%" stop-color="#4F8CFF" stop-opacity="0.42"/>
+      <stop offset="62%" stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="46%" r="50%">
+      <stop offset="0%" stop-color="#F0F4FF"/>
+      <stop offset="28%" stop-color="#BFDBFE"/>
+      <stop offset="58%" stop-color="#4F8CFF" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="floorRef" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ringStroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#4F8CFF" stop-opacity="0.55"/>
+      <stop offset="65%" stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glassEdge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="42%" stop-color="#8B9CFF" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.22"/>
+    </linearGradient>
+    <filter id="softBlur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+    <filter id="bigGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <style>
+      .ui { font-family: 'JetBrains Mono','SF Mono',ui-monospace,Consolas,monospace; }
+      .lbl { fill:#8B8B98; font-size:12px; letter-spacing:1.6px; }
+      .lblHi { fill:#B8B8C8; font-size:12px; letter-spacing:1.6px; }
+      .name { fill:#E8E8F0; font-size:13px; letter-spacing:2.2px; font-weight:500; }
+      .motto { fill:#B8B8C8; font-size:11px; letter-spacing:1.4px; }
+      @media (prefers-reduced-motion:reduce){
+        animate,animateTransform,animateMotion { display:none }
+      }
+    </style>
+  </defs>
+
+  <!-- atmospheric background -->
+  <rect width="1200" height="540" fill="url(#bgGrad)"/>
+  <rect width="1200" height="540" fill="url(#ambBlue)"/>
+  <rect width="1200" height="540" fill="url(#ambViolet)"/>
+  <rect width="1200" height="540" fill="url(#ambPink)"/>
+
+  <!-- faint perspective grid floor -->
+  <g opacity="0.55">
+    <g stroke="#4F8CFF" stroke-width="1" fill="none" opacity="0.5">
+      <line x1="0"   y1="382" x2="1200" y2="382" opacity="0.08"/>
+      <line x1="0"   y1="404" x2="1200" y2="404" opacity="0.07"/>
+      <line x1="0"   y1="430" x2="1200" y2="430" opacity="0.06"/>
+      <line x1="0"   y1="460" x2="1200" y2="460" opacity="0.045"/>
+      <line x1="0"   y1="495" x2="1200" y2="495" opacity="0.03"/>
+      <line x1="0"   y1="535" x2="1200" y2="535" opacity="0.02"/>
+    </g>
+    <g stroke="#8B5CF6" stroke-width="1" opacity="0.045">
+      <line x1="120"  y1="540" x2="600" y2="370"/>
+      <line x1="300"  y1="540" x2="600" y2="370"/>
+      <line x1="450"  y1="540" x2="600" y2="370"/>
+      <line x1="600"  y1="540" x2="600" y2="370"/>
+      <line x1="750"  y1="540" x2="600" y2="370"/>
+      <line x1="900"  y1="540" x2="600" y2="370"/>
+      <line x1="1080" y1="540" x2="600" y2="370"/>
+    </g>
+  </g>
+
+  <!-- corner frame brackets -->
+  <g stroke="#4F8CFF" stroke-width="1.4" fill="none" opacity="0.45">
+    <path d="M 56 78 L 56 56 L 78 56"/>
+    <path d="M 1144 56 L 1166 56 L 1166 78"/>
+    <path d="M 56 462 L 56 484 L 78 484"/>
+    <path d="M 1144 484 L 1166 484 L 1166 462"/>
+  </g>
+
+  <!-- top status indicators -->
+  <g class="ui">
+    <text x="92" y="60" class="lbl">SYS.NODE</text>
+    <circle cx="180" cy="56" r="3.5" fill="#22D3EE">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="56" r="6" fill="#22D3EE" opacity="0.25" filter="url(#softBlur)"/>
+
+    <text x="1108" y="60" class="lblHi" text-anchor="end">STATUS · BUILDING</text>
+    <circle cx="1118" cy="56" r="3.5" fill="#A78BFA">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1118" cy="56" r="6" fill="#A78BFA" opacity="0.22" filter="url(#softBlur)"/>
+  </g>
+
+  <!-- core composition -->
+  <g transform="translate(600 270)">
+    <!-- floor reflection -->
+    <ellipse cx="0" cy="172" rx="190" ry="20" fill="url(#floorRef)" filter="url(#bigGlow)" opacity="0.6"/>
+
+    <!-- outer halo (slow pulse) -->
+    <circle r="158" fill="url(#haloGrad)">
+      <animate attributeName="r" values="152;166;152" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;0.78;0.55" dur="7s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- orbital ring 1 (slow counter rotation, tilted) -->
+    <g transform="rotate(-7)">
+      <ellipse rx="208" ry="58" fill="none" stroke="url(#ringStroke)" stroke-width="1.2">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="42s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- traveling node on ring 1 -->
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="42s" repeatCount="indefinite"/>
+        <circle cx="208" cy="0" r="3" fill="#C4B5FD"/>
+        <circle cx="208" cy="0" r="7" fill="#C4B5FD" opacity="0.25" filter="url(#softBlur)"/>
+      </g>
+    </g>
+
+    <!-- orbital ring 2 (faster, opposite tilt) -->
+    <g transform="rotate(9)">
+      <ellipse rx="244" ry="68" fill="none" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.32" stroke-dasharray="2 7">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="58s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- orbital ring 3 (smallest, near core, pink/violet) -->
+    <g transform="rotate(0)">
+      <ellipse rx="146" ry="44" fill="none" stroke="#EC4899" stroke-width="1" stroke-opacity="0.42">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="29s" repeatCount="indefinite"/>
+      </ellipse>
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="29s" repeatCount="indefinite"/>
+        <circle cx="146" cy="0" r="2.6" fill="#FBCFE8"/>
+        <circle cx="146" cy="0" r="6" fill="#EC4899" opacity="0.28" filter="url(#softBlur)"/>
+      </g>
+    </g>
+
+    <!-- faint inner orbital arc (decorative) -->
+    <path d="M -110 0 A 110 22 0 0 1 110 0" fill="none" stroke="#4F8CFF" stroke-opacity="0.18" stroke-width="0.8"/>
+
+    <!-- glass orb boundary -->
+    <circle r="78" fill="#FFFFFF" fill-opacity="0.03" stroke="url(#glassEdge)" stroke-width="1.2"/>
+    <circle r="78" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="0.6" filter="url(#softBlur)"/>
+
+    <!-- internal top highlight (crescent) -->
+    <path d="M -52 -36 A 60 60 0 0 1 52 -36" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="1.6" stroke-linecap="round"/>
+
+    <!-- sharp specular highlight (upper-left, glass reflection) -->
+    <circle cx="-26" cy="-40" r="6.5" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="-26" cy="-40" r="3.2" fill="#FFFFFF"/>
+    <circle cx="-26" cy="-40" r="9" fill="#FFFFFF" opacity="0.18" filter="url(#softBlur)"/>
+
+    <!-- core inner glow -->
+    <circle r="44" fill="url(#coreGlow)" opacity="0.92">
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- core innermost bright point -->
+    <circle r="14" fill="#FFFFFF" opacity="0.95">
+      <animate attributeName="opacity" values="0.78;1;0.78" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="13;15;13" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3.2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- subtle scan line -->
+  <rect x="0" y="268" width="1200" height="1" fill="#4F8CFF" opacity="0.08">
+    <animate attributeName="y" values="240;300;240" dur="9s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.5;1" keySplines="0.4 0 0.6 1; 0.4 0 0.6 1"/>
+    <animate attributeName="opacity" values="0.04;0.12;0.04" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- bottom labels -->
+  <g class="ui">
+    <text x="92" y="510" class="name">ar0x</text>
+    <circle cx="138" cy="506" r="2" fill="#4F8CFF" opacity="0.6"/>
+    <text x="150" y="510" class="motto">AI · experimental systems</text>
+
+    <text x="1108" y="510" class="motto" text-anchor="end">build → break → learn → repeat</text>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" viewBox="0 0 1200 280" width="1200" height="280" role="img" aria-label="Stack — technologies ar0x actually uses across repositories. Languages: TypeScript, JavaScript ES6+, Python. AI/LLM routing: OpenRouter, Groq, ONNX Runtime Web. Render and audio: Live2D Cubism SDK, PIXI.js, Tone.js, Kokoro TTS, Web Speech API.">
+  <defs>
+    <linearGradient id="sBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0C1A"/>
+      <stop offset="50%" stop-color="#080912"/>
+      <stop offset="100%" stop-color="#06070F"/>
+    </linearGradient>
+    <linearGradient id="sBd" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.06"/>
+    </linearGradient>
+    <radialGradient id="sAmbTR" cx="92%" cy="0%" r="55%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sAmbBL" cx="6%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .u  { font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,monospace; }
+      .hL { fill:#E8E8F0; font-size:13px; letter-spacing:3px; }
+      .hS { fill:#6B6B7B; font-size:11px; letter-spacing:1.6px; }
+      .cL { fill:#A78BFA; font-size:10.5px; letter-spacing:2.2px; }
+      .cL2 { fill:#4F8CFF; font-size:10.5px; letter-spacing:2.2px; }
+      .cL3 { fill:#F472B6; font-size:10.5px; letter-spacing:2.2px; }
+      .iT { fill:#D8D8E8; font-size:13px; letter-spacing:0.6px; }
+      @media (prefers-reduced-motion:reduce){ animate { display:none } }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="280" rx="20" fill="url(#sBg)"/>
+  <rect x="0" y="0" width="1200" height="280" rx="20" fill="url(#sAmbTR)"/>
+  <rect x="0" y="0" width="1200" height="280" rx="20" fill="url(#sAmbBL)"/>
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="20" fill="none" stroke="url(#sBd)" stroke-width="1"/>
+
+  <rect x="20" y="20" width="1160" height="240" rx="14" fill="#FFFFFF" fill-opacity="0.018" stroke="#8B9CFF" stroke-opacity="0.14" stroke-width="1"/>
+  <path d="M 36 22 H 1164" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="0.8"/>
+
+  <!-- header row -->
+  <g class="u">
+    <circle cx="44" cy="48" r="3" fill="#A78BFA">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="58" y="52" class="hL">// STACK</text>
+    <text x="1156" y="52" class="hS" text-anchor="end">runtime · browser-native</text>
+  </g>
+  <line x1="40" y1="68" x2="1160" y2="68" stroke="#8B9CFF" stroke-opacity="0.16" stroke-width="0.6"/>
+
+  <!-- 3 columns -->
+  <g class="u">
+    <!-- column 1: LANGUAGES -->
+    <text x="60" y="96" class="cL2">LANGUAGES</text>
+    <line x1="60" y1="104" x2="100" y2="104" stroke="#4F8CFF" stroke-opacity="0.5" stroke-width="1"/>
+    <g transform="translate(60 116)">
+      <rect width="320" height="26" rx="13" fill="#4F8CFF" fill-opacity="0.06" stroke="#4F8CFF" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">TypeScript</text>
+    </g>
+    <g transform="translate(60 150)">
+      <rect width="320" height="26" rx="13" fill="#4F8CFF" fill-opacity="0.06" stroke="#4F8CFF" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">JavaScript (ES6+)</text>
+    </g>
+    <g transform="translate(60 184)">
+      <rect width="320" height="26" rx="13" fill="#4F8CFF" fill-opacity="0.06" stroke="#4F8CFF" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">Python</text>
+    </g>
+
+    <!-- column 2: AI · LLM ROUTING -->
+    <text x="440" y="96" class="cL">AI · LLM ROUTING</text>
+    <line x1="440" y1="104" x2="480" y2="104" stroke="#A78BFA" stroke-opacity="0.5" stroke-width="1"/>
+    <g transform="translate(440 116)">
+      <rect width="320" height="26" rx="13" fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">OpenRouter</text>
+    </g>
+    <g transform="translate(440 150)">
+      <rect width="320" height="26" rx="13" fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">Groq</text>
+    </g>
+    <g transform="translate(440 184)">
+      <rect width="320" height="26" rx="13" fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">ONNX Runtime Web</text>
+    </g>
+    <g transform="translate(440 218)">
+      <rect width="320" height="26" rx="13" fill="#8B5CF6" fill-opacity="0.06" stroke="#8B5CF6" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">Kokoro TTS</text>
+    </g>
+
+    <!-- column 3: RENDER · AUDIO -->
+    <text x="820" y="96" class="cL3">RENDER · AUDIO</text>
+    <line x1="820" y1="104" x2="860" y2="104" stroke="#F472B6" stroke-opacity="0.5" stroke-width="1"/>
+    <g transform="translate(820 116)">
+      <rect width="320" height="26" rx="13" fill="#EC4899" fill-opacity="0.06" stroke="#EC4899" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">Live2D Cubism SDK</text>
+    </g>
+    <g transform="translate(820 150)">
+      <rect width="320" height="26" rx="13" fill="#EC4899" fill-opacity="0.06" stroke="#EC4899" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">PIXI.js</text>
+    </g>
+    <g transform="translate(820 184)">
+      <rect width="320" height="26" rx="13" fill="#EC4899" fill-opacity="0.06" stroke="#EC4899" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">Tone.js</text>
+    </g>
+    <g transform="translate(820 218)">
+      <rect width="320" height="26" rx="13" fill="#EC4899" fill-opacity="0.06" stroke="#EC4899" stroke-opacity="0.28" stroke-width="0.8"/>
+      <text x="16" y="17" class="iT">Web Speech API · STT</text>
+    </g>
+  </g>
+</svg>

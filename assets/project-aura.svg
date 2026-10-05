@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-label="AURA — Live2D AI Companion. Browser-native AI companion with Live2D characters, multi-provider LLM routing, local TTS, speech-to-text. Built with Live2D Cubism SDK, PIXI.js, ONNX Runtime, Tone.js, Groq and OpenRouter. Status: active. Opens the AURA repository.">
+  <defs>
+    <linearGradient id="pBg1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0C1A"/>
+      <stop offset="50%" stop-color="#080912"/>
+      <stop offset="100%" stop-color="#06070F"/>
+    </linearGradient>
+    <linearGradient id="pBd1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="pAcc1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#4F8CFF" stop-opacity="0.9"/>
+      <stop offset="65%" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="ambTR1" cx="92%" cy="0%" r="55%">
+      <stop offset="0%" stop-color="#4F8CFF" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#4F8CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ambBL1" cx="6%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .u  { font-family:'JetBrains Mono','SF Mono',ui-monospace,Consolas,monospace; }
+      .lL { fill:#6B6B7B; font-size:11px; letter-spacing:1.8px; }
+      .lS { fill:#B8B8C8; font-size:11px; letter-spacing:1.8px; }
+      .tT { fill:#E8E8F0; font-size:34px; letter-spacing:4px; font-weight:600; }
+      .tS { fill:#8B8B98; font-size:13px; letter-spacing:2.5px; }
+      .tD { fill:#B8B8C8; font-size:13px; letter-spacing:0.2px; }
+      .bT { fill:#B8B8C8; font-size:10.5px; letter-spacing:1.4px; }
+      @media (prefers-reduced-motion:reduce){ animate { display:none } }
+    </style>
+  </defs>
+
+  <!-- outer panel -->
+  <rect x="0" y="0" width="1200" height="220" rx="20" fill="url(#pBg1)"/>
+  <rect x="0" y="0" width="1200" height="220" rx="20" fill="url(#ambTR1)"/>
+  <rect x="0" y="0" width="1200" height="220" rx="20" fill="url(#ambBL1)"/>
+  <rect x="0.5" y="0.5" width="1199" height="219" rx="20" fill="none" stroke="url(#pBd1)" stroke-width="1"/>
+
+  <!-- inner glass surface -->
+  <rect x="20" y="20" width="1160" height="180" rx="14" fill="#FFFFFF" fill-opacity="0.018" stroke="#8B9CFF" stroke-opacity="0.14" stroke-width="1"/>
+  <!-- top edge internal highlight -->
+  <path d="M 36 22 H 1164" stroke="#FFFFFF" stroke-opacity="0.22" stroke-width="0.8"/>
+
+  <!-- left accent bar -->
+  <rect x="36" y="44" width="2" height="132" fill="url(#pAcc1)"/>
+
+  <!-- top-left status -->
+  <g class="u">
+    <circle cx="62" cy="50" r="3.4" fill="#4ADE80">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="62" cy="50" r="6.5" fill="#4ADE80" opacity="0.22"/>
+    <text x="78" y="54" class="lL">// PROJECT_01 · ACTIVE</text>
+  </g>
+
+  <!-- top-right tech badges -->
+  <g class="u" transform="translate(596 38)">
+    <g transform="translate(0 0)">
+      <rect width="118" height="24" rx="12" fill="#4F8CFF" fill-opacity="0.07" stroke="#4F8CFF" stroke-opacity="0.32" stroke-width="0.8"/>
+      <text x="59" y="16" class="bT" text-anchor="middle">Live2D Cubism</text>
+    </g>
+    <g transform="translate(126 0)">
+      <rect width="74" height="24" rx="12" fill="#4F8CFF" fill-opacity="0.07" stroke="#4F8CFF" stroke-opacity="0.32" stroke-width="0.8"/>
+      <text x="37" y="16" class="bT" text-anchor="middle">PIXI.js</text>
+    </g>
+    <g transform="translate(208 0)">
+      <rect width="120" height="24" rx="12" fill="#8B5CF6" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.32" stroke-width="0.8"/>
+      <text x="60" y="16" class="bT" text-anchor="middle">ONNX Runtime</text>
+    </g>
+    <g transform="translate(336 0)">
+      <rect width="74" height="24" rx="12" fill="#8B5CF6" fill-opacity="0.07" stroke="#8B5CF6" stroke-opacity="0.32" stroke-width="0.8"/>
+      <text x="37" y="16" class="bT" text-anchor="middle">Tone.js</text>
+    </g>
+    <g transform="translate(418 0)">
+      <rect width="142" height="24" rx="12" fill="#EC4899" fill-opacity="0.06" stroke="#EC4899" stroke-opacity="0.32" stroke-width="0.8"/>
+      <text x="71" y="16" class="bT" text-anchor="middle">Groq · OpenRouter</text>
+    </g>
+  </g>
+
+  <!-- title -->
+  <text x="60" y="116" class="tT" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,sans-serif">AURA</text>
+
+  <!-- subtitle -->
+  <text x="60" y="138" class="u tS">Live2D AI COMPANION · CLIENT-SIDE</text>
+
+  <!-- description -->
+  <text x="60" y="166" class="tD" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,sans-serif">A browser-native AI companion. Live2D characters with emotion-driven</text>
+  <text x="60" y="184" class="tD" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,sans-serif">expressions, multi-provider LLM routing, local Kokoro TTS, speech-to-text.</text>
+
+  <!-- bottom-right hint -->
+  <g class="u">
+    <text x="1140" y="194" class="lS" text-anchor="end">// repository</text>
+    <path d="M 1148 190 L 1158 194 L 1148 198" fill="none" stroke="#B8B8C8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
