@@ -19,23 +19,8 @@
 └── Motto     : "If it doesn't exist, build it."
 ```
 
-## 📊 GitHub Stats & Trophies
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ar0x1&show_icons=true&theme=nightowl&hide_border=true&count_private=true&cache_seconds=86400" alt="GitHub Stats" width="49%" />
-  <img src="https://streak-stats.demolab.com/?user=ar0x1&theme=nightowl&hide_border=true&cache_seconds=86400" alt="GitHub Streak" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ar0x1&layout=compact&theme=nightowl&hide_border=true&langs_count=10&cache_seconds=86400" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ar0x1&theme=nightowl&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
-</p>
-
-<p align="center">
-  <img height="280em" src="https://github-readme-activity-graph.vercel.app/graph?username=ar0x1&theme=nightowl&radius=10" alt="GitHub Activity Graph" />
+<img src="https://www.gitskins.com/api/section/wordmark?username=ar0x1&theme=github-dark&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F251187365%3Fu%3D14117e9cda560b9ea27fe70adc0e0c2009296571%26v%3D4&v=showcase-wordmark-2" alt="ar0x wordmark visual" />
 </p>
 
 ## 🛠️ Languages & Tools
