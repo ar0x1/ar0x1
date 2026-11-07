@@ -1,10 +1,22 @@
-<h1 align="center">Hey <img src="https://raw.githubusercontent.com/SP-XD/SP-XD/refs/heads/main/images/Developer.gif" height="30px" width="30px"> I'm ar0x</h1>
-
+<h1 align="center">Hey <img src="https://raw.githubusercontent.com/SP-XD/SP-XD/refs/heads/main/images/Developer.gif" height="30px" width="30px"> I'm Aryan as ar0x</h1>
 
 <img src="https://i.pinimg.com/originals/42/b4/22/42b4229a9ec3145edaa895b2415dd720.gif" alt="Banner" width="100%" />
 
 ## 📌 About Me
-- 💡 <em>✏️ A sentence about you and what you do.</em>
+- 💡 <em>✏️ ```bash
+┌──(whoami)
+│
+├── Name      : Aryan Kumar (ar0x)
+├── Role      : Full-Stack Vibecoder/AI Devloper
+├── Mindset   : Builder | Explorer | Problem Solver
+├── OS        : Linux
+├── Focus     : AI,LLM & ML,Software, Systems & Web-Dev Technologies
+├── Interests : Open Source, Reverse Engineering, UI/UX
+├── Languages : JavaScript,HTML, Python, C/C++ (and more)
+├── Hobbies   : Building tools, breaking things, learning, and becoming master os AI
+│
+└── Motto     : "If it doesn't exist, build it."
+```.</em>
 
 
 ## 📊 GitHub Stats & Trophies
