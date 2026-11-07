@@ -71,7 +71,6 @@
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="38" height="38" alt="MySQL"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="38" height="38" alt="PostgreSQL"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="38" height="38" alt="MongoDB"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="38" height="38" alt="Redis"/>
   <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" width="38" height="38" alt="SQLite"/>
 </p>
 
@@ -82,7 +81,6 @@
   <img src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-icon.svg" width="38" height="38" alt="AWS"/>
   <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" width="38" height="38" alt="Google Cloud"/>
   <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" width="38" height="38" alt="Azure"/>
-  <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" width="38" height="38" alt="Jenkins"/>
 </p>
 
 <p align="left">
@@ -91,7 +89,6 @@
   <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" width="38" height="38" alt="VS Code"/>
   <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="38" height="38" alt="Figma"/>
   <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" width="38" height="38" alt="Postman"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/webpack/webpack-original.svg" width="38" height="38" alt="Webpack"/>
   <img src="https://www.vectorlogo.zone/logos/vitejsdev/vitejsdev-icon.svg" width="38" height="38" alt="Vite"/>
 </p>
 
