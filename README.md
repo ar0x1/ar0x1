@@ -122,5 +122,5 @@
 </picture>
 
 <div align="center">
-  <sub>ar0x · Creative Developer</sub>
+  <sub>ar0x · I have many Token, I have 0 Ideas</sub>
 </div>
