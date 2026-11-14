@@ -10,7 +10,7 @@
 ┌──(whoami)
 │
 ├── Name      : Aryan Kumar (ar0x)
-├── Role      : Full-Stack Vibecoder / AI Developer
+├── Role      : Full-Stack Vibecoder/AI Developer
 ├── Mindset   : Builder | Explorer | Problem Solver
 ├── OS        : Linux
 ├── Focus     : AI, LLMs, ML, Software, Systems & Web Technologies
