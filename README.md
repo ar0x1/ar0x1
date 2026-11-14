@@ -45,12 +45,6 @@
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=ar0x1&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-<p align="center">
-<img src="https://www.gitskins.com/api/section/wordmark?username=ar0x1&theme=github-dark&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F251187365%3Fu%3D14117e9cda560b9ea27fe70adc0e0c2009296571%26v%3D4&v=showcase-wordmark-2" alt="ar0x wordmark visual" />
-</p>
-
-<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=ar0x1&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
-
 ## 🛠️ Languages & Tools
 
 <p align="left">
