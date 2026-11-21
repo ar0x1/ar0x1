@@ -12,7 +12,7 @@
 ├── Name      : Aryan Kumar (ar0x)
 ├── Role      : Full-Stack Vibecoder/AI Developer
 ├── OS        : Linux
-├── Focus     : AI, LLMs, Software, Systems & Web Technologies
+├── Focus     : AI, LLMs, Software & Web Technologies
 ├── Languages : HTML, CSS, JS , Typescript, Python  (and more)
 ├── Hobbies   : Building tools, Learning, Mastering AI
 │
