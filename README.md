@@ -11,14 +11,12 @@
 │
 ├── Name      : Aryan Kumar (ar0x)
 ├── Role      : Full-Stack Vibecoder/AI Developer
-├── Mindset   : Builder | Explorer | Problem Solver
 ├── OS        : Linux
-├── Focus     : AI, LLMs, ML, Software, Systems & Web Technologies
-├── Interests : Open Source, Reverse Engineering, UI/UX
-├── Languages : JavaScript, HTML, Python, C/C++ (and more)
-├── Hobbies   : Building tools, breaking things, learning, mastering AI
+├── Focus     : AI, LLMs, Software, Systems & Web Technologies
+├── Languages : HTML, CSS, JS , Typescript, Python  (and more)
+├── Hobbies   : Building tools, Learning, Mastering AI
 │
-└── Motto     : "If it doesn't exist, build it."
+└── Motto     : "Do Not Compliment."
 ```
 
 <div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=ar0x1&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
